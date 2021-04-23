@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>PONG GAME</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"  crossorigin="anonymous">
+    </head>
+    <body>
+     <div class="container mt-4">
+     <div class="container_bo">
+        <img class="picture"
+        src="logo.png"
+        alt="logo jeux">
+        <h1 class = "name_main">Jeux de Ping pong</h1>
+            <div class="container_j">
+                <h5 class ='name' >SOLO</h5>
+                <td>
+                    <a href="TD1/index.html" class="btn btn-success button_j">JOUER</a>
+                </td>
+            </div>
+            <div class="container_j">
+                <h5 class ='name' >2 VS 2 EN LIGNE</h5>
+                <td>
+                    <a href="http://localhost:8000/" class="btn btn-success button_j">JOUER</a>
+                </td>
+            </div>
+            <div class="container_j">
+                <h5 class ='name' >4 VS 4 EN LIGNE</h5>
+                <td>
+                    <a href="http://localhost:8050/" class="btn btn-success button_j">JOUER</a>
+                </td>
+            </div>
+
+    </div>
+          </div>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"  crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"  crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"  crossorigin="anonymous"></script>
+    </body>
+</html>
+<style>
+    .name{
+        opacity: inherit; 
+        color : white;
+        width: 400px;
+        margin : 5px;
+    }
+    .container_bo{
+        width: 600px;
+        background-color: black;
+        height: auto;
+        opacity: 80%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 25px;;
+    }
+    .button_j{
+        opacity: inherit; 
+        margin: 5px;
+        
+    }
+    .container_j{
+        display: flex;
+         flex-direction: row;
+    }
+    .picture{
+        margin: 10px;
+    }
+    .name_main{
+        color:white;
+        opacity: inherit;
+    }
+    .body{
+        background-image:url(background.jpg);
+        background-color: #cccccc;
+        height: auto;
+        width: auto;
+    }
+</style>
